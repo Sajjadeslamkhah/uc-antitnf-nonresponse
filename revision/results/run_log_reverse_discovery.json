@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-16T20:25:30",
+  "script": "revision/reverse_discovery.py",
+  "seed": 2026,
+  "n_boot": 2000,
+  "thresholds": {
+    "L2_P": 0.01,
+    "L2_LFC": 0.5,
+    "REPL_P": 0.05,
+    "low_expr_quantile": 0.25
+  },
+  "discovery_sets": {
+    "GOL_GSE92415 (primary)": [
+      "GOL_GSE92415"
+    ],
+    "IFX_GSE16879": [
+      "IFX_GSE16879"
+    ],
+    "IFX_GSE23597": [
+      "IFX_GSE23597"
+    ],
+    "IFX_pooled": [
+      "IFX_GSE16879",
+      "IFX_GSE23597"
+    ]
+  },
+  "core_up_genes": 472,
+  "limma": "3.58.1",
+  "R": "R version 4.3.3 (2024-02-29)",
+  "python": "3.13.18",
+  "sample_counts": {
+    "GOL_GSE92415": {
+      "R": 32,
+      "NR": 27
+    },
+    "PBO_GSE92415": {
+      "NR": 17,
+      "R": 11
+    },
+    "IFX_GSE16879": {
+      "NR": 16,
+      "R": 8
+    },
+    "IFX_GSE23597": {
+      "R": 24,
+      "NR": 7
+    }
+  }
+}

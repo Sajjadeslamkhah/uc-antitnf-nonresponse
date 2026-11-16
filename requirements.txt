@@ -1,0 +1,15 @@
+# Python packages used by the notebook and the revision scripts.
+# Versions are those of the published run; the revision scripts also run with newer releases.
+numpy
+pandas
+scipy==1.16.3
+statsmodels==0.15.0
+scikit-learn==1.6.1
+gseapy==1.3.1
+networkx==3.7
+matplotlib
+seaborn
+adjustText
+openpyxl
+requests
+# R (>= 4.3) with Bioconductor packages: limma, WGCNA, MCPcounter
