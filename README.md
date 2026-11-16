@@ -2,9 +2,11 @@
 
 Analysis code for:
 
-> Erçağ E, Eslamkhah S, Gülmez H, Şahin H. *Predictive but not independent: a placebo-controlled, non-redundant
-> multi-cohort analysis of baseline mucosal signatures of anti-TNF non-response in ulcerative colitis.*
-> Manuscript under review at *Genes* (MDPI), ID genes-4682835. (Title as submitted; may change at revision.)
+> Erçağ E, Eslamkhah S, Gülmez H, Şahin H. *Baseline mucosal signatures of anti-TNF non-response in ulcerative colitis
+> largely reflect inflammatory burden: a placebo-controlled multi-cohort transcriptomic analysis.*
+> *Genes* (MDPI), manuscript genes-4682835, under revision. Submitted under the title *Predictive but not independent: a
+> placebo-controlled, non-redundant multi-cohort analysis of baseline mucosal signatures of anti-TNF non-response in
+> ulcerative colitis*.
 
 The study re-analyses four non-overlapping public microarray series of colonic biopsies from the Gene Expression Omnibus:
 
@@ -22,7 +24,7 @@ Three further series (GSE87466, GSE12251, GSE73661) were screened and excluded b
 ```
 notebooks/UC_AntiTNF_pipeline.ipynb   complete analysis, run top to bottom in Google Colab (outputs retained)
 revision/reverse_discovery.py         alternative-discovery analysis added at revision (Reviewer 2, comment 7)
-revision/plot_reverse_discovery.py    Figure S13 for that analysis
+revision/plot_reverse_discovery.py    Supplementary Figure S13 for that analysis (Table S13 = revision/results/T_reverse_discovery_*.csv)
 revision/results/                     output of the two revision scripts
 data/README.md                        which input files are needed and where they come from
 requirements.txt                      Python packages
